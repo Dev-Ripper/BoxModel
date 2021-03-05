@@ -1,0 +1,68 @@
+@media <screen> and (<max-width: 500px>) {
+    body{
+        margin: 0;
+    }
+    
+    .navigator{
+        background-color: rgb(63, 62, 62);
+        justify-content: start;
+        color: grey;
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    ul {
+        display: inline;
+        font-size: 20px;
+        margin: 0;
+        padding-left: 0;
+      }
+    
+    ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 20px 20px  ;
+    }
+    
+    .title{
+        background-color: white;
+        text-align: center;
+    }
+    
+    .carousel{
+        float: center;
+        min-height: 400px;
+        background-color: #dbdbdb;
+    }
+    
+    .txt{
+    
+        text-align: center;
+    }
+    
+    article{
+        background-color: #dbdbdb;
+        display: inline-block;
+        padding: 1rem;
+    }
+    
+    form{
+        display: block;
+        text-align: center;
+    }
+    
+    input{
+        display: block;
+        margin: 20px;
+        min-width: 97%;
+        min-height: 100%;
+    }
+    
+    textarea{
+        display: block;
+        min-width: 97%;
+        min-height: 100%;   
+        margin: 20px;
+    }
+    }
+
